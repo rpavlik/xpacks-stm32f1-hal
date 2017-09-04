@@ -1,0 +1,33 @@
+# STM32F1 HAL
+
+This project, available from [GitHub](https://github.com/rpavlik/xpacks-stm32f1-hal),
+includes the STM32F1 HAL files.
+
+## Version
+
+* ST HAL v1.0.4
+
+## Documentation
+
+The latest STM documentation is available from
+[STM32CubeF1](http://www.st.com/en/embedded-software/stm32cubef1.html.
+
+The latest CMSIS documentation is available from
+[keil.com](http://www.keil.com/cmsis).
+
+The list of latest packs is available from [keil.com](https://www.keil.com/dd2/pack/).
+
+## Original files
+
+The original files are available in the `originals` branch.
+
+These files were extracted from `stm32cube_fw_f1_v140.zip`.
+
+To save space, only the following folders were preserved:
+
+* Drivers/STM32F\?xx\_HAL\_Driver/
+
+## Changes
+
+* none.
+
