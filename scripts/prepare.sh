@@ -30,7 +30,8 @@ IFS=$'\n\t'
 # RELEASE_VERSION="1.13.0"
 # RELEASE_VERSION="1.14.0"
 
-RELEASE_VERSION="1.4.0"
+# RELEASE_VERSION="1.4.0"
+RELEASE_VERSION="1.6.0"
 
 FAMILY="STM32F1"
 GITHUB_PROJECT="rpavlik/xpacks-stm32f1-hal"
@@ -109,7 +110,7 @@ includes the ${FAMILY} HAL files.
 ## Documentation
 
 The latest STM documentation is available from
-[STM32CubeF1](http://www.st.com/en/embedded-software/stm32cubef1.html.
+[STM32CubeF1](http://www.st.com/en/embedded-software/stm32cubef1.html).
 
 The latest CMSIS documentation is available from
 [keil.com](http://www.keil.com/cmsis).
@@ -125,6 +126,10 @@ These files were extracted from \`${ARCHIVE_NAME}\`.
 To save space, only the following folders were preserved:
 
 * Drivers/STM32F\?xx\_HAL\_Driver/
+
+and the following files were removed:
+
+* Drivers/STM32F\?xx\_HAL\_Driver/*.chm
 
 ## Changes
 

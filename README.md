@@ -5,8 +5,8 @@ includes the STM32F1 HAL files.
 
 ## Version
 
-* ST HAL v1.0.4
-* From STM32CubeMX HAL firmware bundle v1.4.0
+* ST HAL v1.1.1
+* From STM32CubeMX HAL firmware bundle v1.6.0
 
 ## Documentation
 
@@ -22,11 +22,15 @@ The list of latest packs is available from [keil.com](https://www.keil.com/dd2/p
 
 The original files are available in the `originals` branch.
 
-These files were extracted from `stm32cube_fw_f1_v140.zip`.
+These files were extracted from `stm32cube_fw_f1_v160.zip`.
 
 To save space, only the following folders were preserved:
 
 * Drivers/STM32F\?xx\_HAL\_Driver/
+
+and the following files were removed:
+
+* Drivers/STM32F\?xx\_HAL\_Driver/*.chm
 
 ## Changes
 
