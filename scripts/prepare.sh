@@ -127,6 +127,10 @@ To save space, only the following folders were preserved:
 
 * Drivers/STM32F\?xx\_HAL\_Driver/
 
+and the following files were removed:
+
+* Drivers/STM32F\?xx\_HAL\_Driver/*.chm
+
 ## Changes
 
 * none.
