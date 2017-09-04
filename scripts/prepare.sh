@@ -109,7 +109,7 @@ includes the ${FAMILY} HAL files.
 ## Documentation
 
 The latest STM documentation is available from
-[STM32CubeF1](http://www.st.com/en/embedded-software/stm32cubef1.html.
+[STM32CubeF1](http://www.st.com/en/embedded-software/stm32cubef1.html).
 
 The latest CMSIS documentation is available from
 [keil.com](http://www.keil.com/cmsis).
