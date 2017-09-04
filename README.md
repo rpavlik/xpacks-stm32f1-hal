@@ -1,14 +1,12 @@
 # STM32F1 HAL
 
-This project, available from [GitHub](https://github.com/rpavlik/stm32f1-hal),
+This project, available from [GitHub](https://github.com/rpavlik/xpacks-stm32f1-hal),
 includes the STM32F1 HAL files.
-
-The "meta" content to make an xPack out of this is based on
-the [STM32F4 HAL](https://github.com/xPacks/stm32f4-hal)
 
 ## Version
 
-* ST HAL v1.4.0
+* ST HAL v1.0.4
+* From STM32CubeMX HAL firmware bundle v1.4.0
 
 ## Documentation
 
@@ -24,7 +22,7 @@ The list of latest packs is available from [keil.com](https://www.keil.com/dd2/p
 
 The original files are available in the `originals` branch.
 
-These files were extracted from `STM32Cube_FW_F1_V1.4.0`.
+These files were extracted from `stm32cube_fw_f1_v140.zip`.
 
 To save space, only the following folders were preserved:
 
@@ -32,20 +30,5 @@ To save space, only the following folders were preserved:
 
 ## Changes
 
-* None yet.
+* none.
 
-## Warnings
-
-To silence warnings when compiling the HAL drivers, at least on F4, use:
-
-```
--Wno-sign-conversion -Wno-padded -Wno-conversion -Wno-unused-parameter \
--Wno-bad-function-cast -Wno-sign-compare
-```
-
-## Tests
-
-```
-export PATH=/usr/local/gcc-arm-none-eabi-5_2-2015q4/bin:$PATH
-bash ../../../scripts/run-tests.sh
-```
