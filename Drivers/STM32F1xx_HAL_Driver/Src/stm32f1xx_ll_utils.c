@@ -39,7 +39,7 @@
 #include "stm32f1xx_ll_utils.h"
 #include "stm32f1xx_ll_system.h"
 #ifdef  USE_FULL_ASSERT
-#include "stm32_assert.h"
+#include "stm32f1xx_hal_conf.h"
 #else
 #define assert_param(expr) ((void)0U)
 #endif
