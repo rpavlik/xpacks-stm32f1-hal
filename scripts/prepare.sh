@@ -104,6 +104,7 @@ includes the ${FAMILY} HAL files.
 ## Version
 
 * ST HAL v${HAL_VERSION}
+* From STM32CubeMX HAL firmware bundle v${RELEASE_VERSION}
 
 ## Documentation
 
