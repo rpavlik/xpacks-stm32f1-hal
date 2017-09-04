@@ -6,6 +6,7 @@ includes the STM32F1 HAL files.
 ## Version
 
 * ST HAL v1.0.4
+* From STM32CubeMX HAL firmware bundle v1.4.0
 
 ## Documentation
 
