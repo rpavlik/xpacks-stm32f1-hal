@@ -34,5 +34,6 @@ and the following files were removed:
 
 ## Changes
 
-* none.
+* `Drivers/STM32F1xx\_HAL\_Driver/Src/stm32f1xx_ll_utils.c` - changed conditional include used when `USE_FULL_ASSERT` is defined, from `stm32_assert.h` to `stm32f1xx_hal_conf.h` (where it's typically defined)
+
 
